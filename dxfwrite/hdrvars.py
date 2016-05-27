@@ -41,6 +41,7 @@ Factory = {
     '$DIMCLRD': partial(DXFInt, group_code=70),
     '$DIMCLRE': partial(DXFInt, group_code=70),
     '$DIMCLRT': partial(DXFInt, group_code=70),
+    '$DIMDEC': partial(DXFFloat, group_code=70),
     '$DIMDLE': partial(DXFFloat, group_code=40),
     '$DIMDLI': partial(DXFFloat, group_code=40),
     '$DIMEXE': partial(DXFFloat, group_code=40),
